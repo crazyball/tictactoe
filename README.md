@@ -8,4 +8,4 @@
 ##Launching :
 
  - `composer install`
- - `behat`
+ - ` behat --name="Tic Tac Toe" --config="behat.yaml"`
