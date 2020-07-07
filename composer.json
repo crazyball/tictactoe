@@ -1,0 +1,23 @@
+{
+    "name": "CraZyBaLL/BDD",
+    "description": "Atelier BDD",
+    "type": "project",
+    "require-dev": {
+        "behat/behat": "^3.7",
+        "beberlei/assert": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CraZyBaLL",
+            "email": "loic@1001pharmacies.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CraZyBaLL\\CodinGame\\": "src/"
+        }
+    }
+}

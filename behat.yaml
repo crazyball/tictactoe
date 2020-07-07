@@ -1,0 +1,7 @@
+default:
+  suites:
+    easy:
+      contexts:
+        - 'CraZyBaLL\CodinGame\Easy\TicTacToe\Context\TicTacToeContext'
+      paths:
+        - '%paths.base%/src/Easy/TicTacToe'
