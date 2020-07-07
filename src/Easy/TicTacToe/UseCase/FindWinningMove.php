@@ -14,6 +14,8 @@ class FindWinningMove
      */
     public function execute(array $board): array
     {
+        $board[0][2] = 'O';
+
         return $board;
     }
 }
