@@ -15,8 +15,9 @@ class FindWinningMove
     public function execute(array $board): array
     {
         foreach ($board as &$row) {
-            if ($row[0] === 'O') {
-                $row[2] = 'O';
+            $countSigns = array_count_values($row);
+            if (array_key_exists('O', $countSigns) && $countSigns['O'] === 2) {
+                $row[array_search('.', $row)] = 'O';
             }
         }
 
