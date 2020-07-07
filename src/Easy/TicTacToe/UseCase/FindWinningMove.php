@@ -14,7 +14,11 @@ class FindWinningMove
      */
     public function execute(array $board): array
     {
-        $board[0][2] = 'O';
+        foreach ($board as &$row) {
+            if ($row[0] === 'O') {
+                $row[2] = 'O';
+            }
+        }
 
         return $board;
     }
