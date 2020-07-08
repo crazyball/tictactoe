@@ -1,6 +1,6 @@
 #BDD
 
-![PHP Composer](https://github.com/crazyball/tictactoe/workflows/PHP%20Composer/badge.svg)
+![PHP Composer](https://github.com/crazyball/tictactoe/workflows/PHP%20Composer/badge.svg?branch=master)
 
 ## Prerequisites :
 
