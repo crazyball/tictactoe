@@ -16,7 +16,7 @@ jobs:
 
     - name: Validate composer.json and composer.lock
       run: composer validate
-      
+
     - name: Cache Composer packages
       id: composer-cache
       uses: actions/cache@v2
@@ -34,4 +34,4 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Run test suite
-      run: behat --name="Tic Tac Toe" --config="behat.yaml"    
+      run: vendor/bin/behat --name="Tic Tac Toe" --config="behat.yaml"
