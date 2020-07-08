@@ -1,5 +1,7 @@
 #BDD
 
+![PHP Composer](https://github.com/crazyball/tictactoe/workflows/PHP%20Composer/badge.svg)
+
 ## Prerequisites :
 
 - composer
